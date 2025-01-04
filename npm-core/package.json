@@ -1,0 +1,42 @@
+{
+  "name": "langswitch-core",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npx rollup -c"
+  },
+  "author": "LangSwitch",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.29.1"
+  },
+  "dependencies": {
+    "rollup-plugin-copy": "^3.5.0"
+  },
+  "contributors": [
+    {
+      "name": "Pranay Thakur",
+      "url": "https://github.com/IPranayThakur"
+    },
+    {
+      "name": "Sahil Gurnani",
+      "url": "https://github.com/SaHILL87"
+    }
+  ]
+}

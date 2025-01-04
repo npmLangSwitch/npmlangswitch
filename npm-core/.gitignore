@@ -1,0 +1,60 @@
+# Node.js and npm dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Rollup cache (if using Rollup)
+.rollup.cache/
+
+# TypeScript build files
+*.tsbuildinfo
+
+# Coverage files
+coverage/
+
+# Package lockfiles (optional)
+# Uncomment one if you are using lockfiles
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Test files
+*.test.js
+*.spec.js
+*.test.ts
+*.spec.ts
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Miscellaneous
+*.log
+*.bak
+*.backup
+*.old
+
+# Ignore local packages or symlinks created by npm/yarn link
+*.tgz
