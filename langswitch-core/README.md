@@ -28,12 +28,12 @@ LangSwitch is a React translation package that lets you translate your app using
 
 LangSwitch has two parts:
 
-1. Frontend package (`langswitchreact`)
+1. Frontend package (`langswitch-react`)
 2. Backend package (`langswitch-core`)
 
 ```bash
 # Install frontend package in your React app
-npm install langswitchreact
+npm install langswitch-react
 
 # Install backend package in your server
 npm install langswitch-core
@@ -53,7 +53,8 @@ const app = express();
 // Create the translation manager
 const manager = createTranslationManager({
   filePath: "./translations.json"  // Where to store translations
-  apiUrl : "api_Url" // Your libre translate endpoint
+  apiUrl : "api_Url" //You can get the api url   from google form
+  apiKey : "your_api_Key" //You can get the api key from google form
 });
 
 // Add the translation endpoint

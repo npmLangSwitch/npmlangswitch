@@ -1,0 +1,14 @@
+# Ignore everything first
+*
+
+# Allow these specific files and directories
+!dist/
+!dist/index.js
+!package.json
+!README.md
+!rollup.config.js
+
+# Ignore specific files
+node_modules/
+package-lock.json
+.gitignore
